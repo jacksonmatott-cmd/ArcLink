@@ -1,4 +1,3 @@
-```jsx
 const navigation = [
   "Dashboard",
   "Server",
@@ -17,6 +16,7 @@ export default function Home() {
       <aside className="sidebar">
         <div className="brand">
           <div className="brand-icon">A</div>
+
           <div>
             <div className="brand-name">ArcLink</div>
             <div className="brand-subtitle">Arclight</div>
@@ -96,28 +96,36 @@ export default function Home() {
           <div className="activity">
             <div className="activity-item">
               <div className="activity-icon">+</div>
+
               <div>
                 <strong>Player joined</strong>
                 <p>Waiting for ER:LC connection</p>
               </div>
+
               <span className="time">Just now</span>
             </div>
 
             <div className="activity-item">
               <div className="activity-icon">●</div>
+
               <div>
                 <strong>Server connected</strong>
                 <p>ArcLink is monitoring the server</p>
               </div>
+
               <span className="time">Just now</span>
             </div>
 
             <div className="activity-item">
               <div className="activity-icon">!</div>
+
               <div>
                 <strong>No recent activity</strong>
-                <p>Real server data will appear here once the API is connected.</p>
+                <p>
+                  Real server data will appear here once the API is connected.
+                </p>
               </div>
+
               <span className="time">—</span>
             </div>
           </div>
@@ -126,4 +134,3 @@ export default function Home() {
     </main>
   );
 }
-```
