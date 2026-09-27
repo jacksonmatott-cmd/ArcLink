@@ -1,0 +1,10 @@
+```json
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "arclink",
+  "compatibility_date": "2026-09-27",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
+```
