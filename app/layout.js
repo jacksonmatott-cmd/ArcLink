@@ -1,4 +1,5 @@
-```jsx
+import "./globals.css";
+
 export const metadata = {
   title: "ArcLink",
   description: "Arclight's ER:LC server management platform"
@@ -11,4 +12,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-```
