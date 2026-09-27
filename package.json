@@ -1,20 +1,18 @@
-```json
 {
-  "name": "arclink",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
-  },
-  "dependencies": {
-    "@opennextjs/cloudflare": "latest",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "wrangler": "latest"
-  }
+"name": "arclink",
+"version": "0.1.0",
+"private": true,
+"scripts": {
+"dev": "next dev",
+"build": "next build",
+"preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+"deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
+},
+"dependencies": {
+"@opennextjs/cloudflare": "latest",
+"next": "latest",
+"react": "latest",
+"react-dom": "latest",
+"wrangler": "latest"
 }
-```
+}
